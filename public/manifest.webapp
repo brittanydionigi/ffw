@@ -20,6 +20,9 @@
   "permissions": {
     "desktop-notification": {
       "description": "Allow app to push notifications to users when a new wifi spot has been added nearby"
+    },
+    "geolocation": {
+      "description": "Allow app to detect user's location to filter list of displayed wifi spots"
     }
   }
 }
