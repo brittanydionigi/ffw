@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ember-sw-demo',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
+    firebase: 'https://popping-inferno-2425.firebaseIO.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
