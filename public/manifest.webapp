@@ -18,5 +18,8 @@
   "launch_path": "/index.html",
   "installs_allowed_from": ["https://marketplace.firefox.com", "*"],
   "permissions": {
+    "desktop-notification": {
+      "description": "Allow app to push notifications to users when a new wifi spot has been added nearby"
+    }
   }
 }
