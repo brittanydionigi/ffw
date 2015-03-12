@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'ember-sw-demo',
+    modulePrefix: 'find-free-wifi',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
     firebase: 'https://popping-inferno-2425.firebaseIO.com/',
