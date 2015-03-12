@@ -8,6 +8,8 @@ module.exports = function(environment) {
     firebase: 'https://popping-inferno-2425.firebaseIO.com/',
     baseURL: '/',
     locationType: 'auto',
+    modulePrefix: 'find-free-wifi',
+    podModulePrefix: 'find-free-wifi/pods',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

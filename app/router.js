@@ -6,8 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('wifiSpots');
-  this.route('addWifiSpot');
+  this.resource('wifiSpots', function() {
+    this.route('new');
+  });
 });
 
 export default Router;
